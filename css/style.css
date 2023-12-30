@@ -1,0 +1,430 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*--------------------------------- home sec --------------------------------------- */
+.homeSec{
+    background-image: url(../img/hero\ img.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+   
+    position: relative;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    position: fixed;
+     width: 100%;   
+     z-index: 999;
+ }
+ .navbar a{
+     text-decoration: none;
+     color: white;
+ }
+ .navbar a:hover{
+     color: #ff305b;
+     transition: 1s;
+ }
+ 
+ .leftPart a{
+     color: #ff305b;
+     font-size: 25px;
+     font-weight: bold;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ 
+ .rightPart ul{
+ display: flex;
+ list-style: none;
+ 
+ }
+ .rightPart li{
+     margin-right: 20px;
+     font-size: 18px;
+ }
+.layer{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.homeContent{
+    text-align: center;  
+    color: white;
+}
+.homeContent p{
+    font-size: 25px;
+}
+.homeContent h1{
+    margin: 10px 0px;
+    font-size: 70px;
+    color: #ff305b;
+}
+
+/* ------------------------About sec------------------------------- */
+.aboutSec{
+    padding: 100px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.about{
+    margin-top: 30px;
+    margin-right:40px ;
+    border: 7PX solid rgb(95, 93, 93);
+    border-radius: 5px;
+
+
+}
+.aboutPic{
+    transform: translateX(20px) translateY(20px);
+    position: relative;
+}
+.aboutPic img{
+    border-radius: 7px;
+}
+.imghov {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    text-align: center;
+    padding-top: 55%;
+    background-color: rgba(0, 0, 0, 0.7);
+    visibility: hidden;
+}
+.imghov i{
+    margin-right: 20px;
+    color: #f1f1f1;
+}
+.aboutPic:hover .imghov{
+    visibility: visible;
+}
+.imghov a i:hover{
+    color: #ff305b;
+    transition:  0.5s;
+}
+
+.aboutContent{
+    width: 30%;
+}
+.hello{
+
+    margin:25px 0 ;
+
+}
+.hello p{
+    border-bottom: dashed 3px gray;
+    padding: 15px 0px ;
+    font-size: 18px;
+    letter-spacing: 1px;
+
+}
+.disc ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.disc li{
+    width: 50%;
+    display: flex;
+    padding: 10px 0px;
+
+}
+.disc span{
+    font-size: large;
+    font-weight:bold ;
+}
+.disc button{
+    width: 150px;
+    background-color: #ff305b;
+    color: white;
+    border-radius: 5px;
+    padding:15px 0px; ;
+    border: none;
+    margin: 15px 8px 15px 0px;
+}
+.disc button:hover{
+    background-color: rgb(202, 143, 35);
+    transition: 0.5s;
+}
+
+/*---------------------------------- Our Services ------------------------------------------*/
+
+.serviseSec{
+    background-color: #f1f1f1;
+}
+.title{
+    text-align: center;
+    padding: 30px 0px ;
+
+}
+.title h1{
+    margin: 15px 0px;
+
+}
+.litleline{
+    height: 0.5px;
+    width: 100px;
+    background-color: #ff305b;
+    margin: auto;
+}
+.longline{
+    height: 0.5px;
+    width: 150px;
+    background-color: #ff305b;
+    margin:5px auto;
+}
+.servCards{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 20%;
+    padding: 30px 0px;
+    text-align: center;
+    margin: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.5s ease-in-out;
+
+}
+.card h3{
+    margin: 20px 0px;
+}
+.card i{
+    font-size: 36px;
+    transform: scale(0.8);
+    transition: 1s;
+
+}
+.card p{
+    color: rgb(147, 147, 147);
+    
+}
+.card:hover i {
+transform: none;
+}
+.card:hover{
+    background-color: white;
+    transition: 1s;
+    border-radius: 10px;
+}
+/* -----------------------PORTFOLIO -------------------------------------------------*/
+.portfolioSec{
+    width: 100%;
+}
+
+.portfolioLinks{
+    text-align: center;
+    padding: 20px 0px;
+}
+.portfolioLinks a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: rgb(52, 52, 52);
+    font-weight:bold;
+    font-size: large;
+
+}
+.portfolioLinks a:hover{
+    color: #ff305b;
+    transition: 0.5s;
+}
+.portfolioBlog{
+    flex-wrap: wrap;
+}
+.portfolioBlog .blog{
+    width: 28%;
+}
+
+
+
+
+
+
+/*--------------------------------- counter---------------------------------- */
+
+.countersec{
+    background-color: rgb(241, 241, 241);
+    padding: 30px 0px;
+}
+.innerCount{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px;
+}
+.count{
+    text-align: center;
+}
+.count i{
+    font-size: 30px;
+    color: #ff305b;
+}
+.count h4{
+    margin: 12px 0px;
+}
+/* ----------------feedback------------ */
+.feedbackSec{
+
+    margin: 40px 0px ;
+}
+.clintCard{
+    display: flex;
+    width: 50%;
+    background-color: rgb(241, 241, 241);
+    margin:20px auto;
+    padding: 40px 0px 0px 0px;
+    border-radius: 7px;
+}
+.clintImg img{
+    border-radius: 50%;
+    margin:0px 20px;
+    padding: 10px 0px;
+}
+
+.staricon{
+    padding: 20px 0px;
+    color: gold;
+}
+.clintContent{
+    padding: 40px 0px;
+}
+/* ---------------------Blog -------------------------------------- */
+.blogSec{
+    background-color: rgb(241, 241, 241);
+    margin-top: 70px;
+    padding:  20px 0px 30px 0px ;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.blogs{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0px 50px 0px;
+}
+.blog{
+    width: 25%;
+    background-color: white;
+    padding: 0px 0px 20px 0px;
+}
+.blog img {
+    width: 100%;
+}
+.blog video{
+    width: 100%;
+}
+.blog p{
+    margin: 10px 0px;
+    color: gray
+}
+.blog a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    text-transform: uppercase;
+}
+.blog a:hover{
+    color: #ff305b;
+    transition: 0.5s;
+}
+.blogContent{
+    padding-left: 20px;
+}
+/* ----------------------------ContactUs------------------------ */
+
+.contactSec{
+    width: 100%;
+}
+.contactSec input{
+    border-radius: 5px;
+
+}
+.innerContact{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.innerContact form{
+    width: 100%;
+    text-align: start;   
+}
+.firstRow{
+    display: flex;
+    justify-content: space-between;
+   
+    
+
+}
+.firstRow input{
+    width: 48%;
+    padding: 10px 0px;
+}
+.contactSec button{
+    width: 150px;
+    background-color: #ff305b;
+    color: white;
+    border-radius: 5px;
+    padding:15px 0px; ;
+    border: none;
+    margin: 15px 8px 15px 0px;
+}
+.contactSec button:hover{
+    background-color: rgb(202, 143, 35);
+    transition: 0.5s;
+}
+
+
+
+
+
+/* --------------footer----------------------------------- */
+
+.footer{
+    background-color: rgb(52, 51, 51);
+    padding: 50px 0px;
+}
+.footericon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px;    
+
+}
+.footericon i{
+    margin-right: 25px ;
+    font-size: 18px;
+    color: white;
+
+}
+.footericon i:hover{
+    color: #ff305b;
+    transition: 0.5s;
+}
+.copyright{
+    text-align: center;
+    color: white;
+    font-size: large
+}
+.copyright a{
+    color: #ff305b;
+    text-decoration: none;
+}
+.copyright a:hover{
+    text-decoration: underline;
+}
+
